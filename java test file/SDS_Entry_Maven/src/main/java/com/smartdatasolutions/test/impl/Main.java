@@ -40,7 +40,7 @@ public class Main extends MemberFileConverter {
 		Main main = new Main();
 		File inputMemberFile = new File("C:\\Users\\Shivam Singh\\Downloads\\java test file\\SDS_Entry_Maven\\Members.txt");
 		String outputDirectory = "C:\\Users\\Shivam Singh\\Downloads\\java test file\\SDS_Entry_Maven\\output";
-		String outputFileName = "output.txt"; // You can change the file name if needed
+		String outputFileName = "output.txt"; 
 		try {
 			if (inputMemberFile.exists()) {
 				main.convert(inputMemberFile, outputDirectory, outputFileName);
